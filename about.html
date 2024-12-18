@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erica Mattsson</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="shortcut icon"
+      href="Pictures/ericaProfilbildExp.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav id="navigation">
+      <header class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <a href="index.html?title=Erica Mattsson">Hem</a>
+          <a href="details.html?title=Porträtt akryl">Porträtt akryl</a>
+          <a href="details.html?title=Dot painting">Dot painting</a>
+          <a href="details.html?title=Hundporträtt">Hundporträtt</a>
+          <a href="about.html">Kontakt</a>
+        </div>
+      </header>
+    </nav>
+
+    <main>
+      <h1>Kontakt</h1>
+      <article>
+        <form id="form">
+          <label for="namefield">Vänligen skriv ditt namn nedan.</label>
+          <input type="text" id="namefield" name="contact" placeholder="Namn" />
+
+          <label for="contactMessage"
+            >Vänligen skriv ditt meddelande nedan.</label
+          >
+          <textarea
+            name="message"
+            id="contactMessage"
+            cols="25"
+            rows="6"
+            placeholder="Meddelande"
+          ></textarea>
+
+          <input id="submitBtn" type="submit" value="Skicka" />
+        </form>
+      </article>
+    </main>
+
+    <footer>
+      <a class="styleBackToTop" href="#top">Till sidans topp</a>
+      <a href="https://www.instagram.com/erica.mattsson/" target="_blank"
+        ><img
+          src="Pictures/instagramLogo3.png"
+          alt="bild Instagram logga"
+          style="width: 2em; margin: 5px"
+      /></a>
+    </footer>
+    <script src="about.js"></script>
+    <script src="helpers.js"></script>
+  </body>
+</html>
