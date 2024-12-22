@@ -32,13 +32,13 @@ function addImages(src, alt, text) {
 }
 
 switch (title) {
-  case "Erica Mattsson":
-    addImages(
-      "Pictures/ericaProfilbildExp.png",
-      "Akryl tavla självporträtt Erica Mattsson",
-      "Första självporträtt. "
-    );
-    break;
+  // case "Erica Mattsson":
+  //   addImages(
+  //     "Pictures/ericaProfilbildExp.png",
+  //     "Akryl tavla självporträtt Erica Mattsson",
+  //     "Första självporträtt. "
+  //   );
+  //   break;
   case "Porträtt akryl":
     addImages(
       "Pictures/portraitPics/portraitOnCanvas2Exp.png",
